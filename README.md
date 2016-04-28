@@ -64,9 +64,9 @@ SITES I USED TO TEST EDGE CASES:
 
 Sites I used to test edge cases:
 
--http://jhkjhkhkj.com/    does not exist 
--http://www.tkoofn.com/   hangs
--http://my.xfinity.com/   results in large download
+- http://jhkjhkhkj.com/    does not exist 
+- http://www.tkoofn.com/   hangs
+- http://my.xfinity.com/   results in large download
 
 RESOURCES I USED:
 
