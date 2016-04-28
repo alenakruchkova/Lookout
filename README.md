@@ -55,27 +55,29 @@ TO CHECK THAT THINGS WORKED:
 TROUBLESHOOTING:
 
 1. psql not found on MacOS, make sure it's in path as so
+
 		export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/Latest/bin
+		
 2. spaces in directories cause problems
 
 SITES I USED TO TEST EDGE CASES:
 
 Sites I used to test edge cases:
 
-http://jhkjhkhkj.com/    does not exist 
-http://www.tkoofn.com/   hangs
-http://my.xfinity.com/   results in large download
+	http://jhkjhkhkj.com/    does not exist 
+	http://www.tkoofn.com/   hangs
+	http://my.xfinity.com/   results in large download
 
 RESOURCES I USED:
 
-argparse docs
-https://docs.python.org/3/library/argparse.html
+	argparse docs
+	https://docs.python.org/3/library/argparse.html
 
-requests lib docs
-http://docs.python-requests.org/en/master/
+	requests lib docs
+	http://docs.python-requests.org/en/master/
 
-best library to use for http requests with timeout, maximum size
-http://stackoverflow.com/questions/23514256/http-request-with-timeout-maximum-size-and-connection-pooling
+	best library to use for http requests with timeout, maximum size
+	http://stackoverflow.com/questions/23514256/http-request-with-timeout-maximum-size-and-connection-pooling
 
-reference Errors and Exceptions
-https://docs.python.org/2/tutorial/errors.html
+	reference Errors and Exceptions
+	https://docs.python.org/2/tutorial/errors.html
