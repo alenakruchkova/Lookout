@@ -40,10 +40,10 @@ The app will then create a table in your database, then using requests library r
 and finally record url, timestamp and http status code to specified database.
 I am using status codes below in addition to the standard http status codes:
 
-1000 - ConnectionError - site does not exist
-1001 - url could result in a very large download
-1002 – ReadTimeout – site is hanging
-1111 – unexpected error – all other errors
+- 1000 - ConnectionError - site does not exist
+- 1001 - url could result in a very large download
+- 1002 – ReadTimeout – site is hanging
+- 1111 – unexpected error – all other errors
 
 You can run multiple jobs simultaneously and record results to multiple databases.
 
